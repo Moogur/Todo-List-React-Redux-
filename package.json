@@ -49,7 +49,7 @@
     },
     "scripts": {
         "Development": "NODE_ENV=development webpack-dev-server --mode development --open --inline --hot",
-        "Production": "",
+        "Production": "NODE_ENV=production webpack --mode production",
         "Analyze": "NODE_ENV=production webpack --mode production --analyze",
         "Chart": "webpack --profile --json > stats.json",
         "Deploy": "gh-pages -d dist"
